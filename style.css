@@ -4,14 +4,19 @@ body {
 }
 main {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-/*------ 1st section top player ------*/
+/*------ 
+1st section top player 
+------*/
 
 .container {
   background-color: #ffffff;
   width: 870px;
   padding: 30px;
+  margin: 21px;
+  border-radius: 10px;
 }
 
 .player-title {
@@ -41,7 +46,10 @@ main {
   margin-top: 30px;
   border: 1px solid #d1d1d1;
 }
-/*------ 1st section blogs ------*/
+/*------ 
+1st section blogs 
+------*/
+
 .blogs{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -64,6 +72,10 @@ main {
   font-size: 16px;
   color: #9F9F9F;
 }
-span{
+.author a {
   text-decoration: none;
 }
+
+/*-----------------
+  second section 
+ ----------------*/
